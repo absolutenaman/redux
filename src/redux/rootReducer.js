@@ -4,9 +4,9 @@ import BallReducer from "./ballReducer";
 import userReducer from "./userReducer";
 
 const rootReducer = combineReducers({
-    bat : BatReducer,
-    ball : BallReducer,
-    user : userReducer
-})
+  bat: BatReducer,
+  ball: BallReducer,
+  user: userReducer
+});
 
 export default rootReducer;
